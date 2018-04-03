@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Para enviar mensaje a tu Correo</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos_contactos.css">
+</head>
+<body>
+	<div class="contact">
+		<h1>Bienvenido</h1>	
+		<h2>Envia un mensaje a un correo...</h2>
+	</div>
+
+	<div class="contact-form">
+		<form id="contact-form" method="post" action="msm.php">
+			<input type="text" name="name" class="from-control" placeholder="Nombre" required><br> 
+			<input type="email" name="email" class="from-control" placeholder="Correo" required><br>
+			<textarea name="mensaje" class="from-control" placeholder="Mensaje" rows="4" required></textarea><br>
+			<input type="submit" class="from-control submit" value="Enviar mensaje">
+		</form>
+	</div>
+	
+	<form action="index.html">
+		<input type="submit" class="from-control submit" value="Regresar a menu principal...">
+	</form>
+
+</body>
+</html>
